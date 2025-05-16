@@ -3,5 +3,9 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx", // または "react"（React 17以前を使っている場合）
+    "types": ["react", "react-dom"]
+  }
 }
